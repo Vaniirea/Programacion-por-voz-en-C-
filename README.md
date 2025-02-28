@@ -51,3 +51,4 @@ Este es un proyecto de investigación y desarrollo que busca crear un **asistent
 
 ## Estructura de Archivos (propuesta inicial)
 
+asistente_cpp/ ├── main.py # Ventana principal y ciclo principal ├── speech_recognition.py # Captura voz (Whisper) ├── interpreter.py # Convierte frase a código ├── code_generator.py # Genera el archivo main.cpp ├── templates/ # Plantillas de código base ├── output/ # Carpeta donde se guarda main.cpp ├── requirements.txt # Librerías necesarias └── README.md # Este archivo
