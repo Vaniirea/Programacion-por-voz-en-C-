@@ -51,4 +51,18 @@ Este es un proyecto de investigación y desarrollo que busca crear un **asistent
 
 ## Estructura de Archivos (propuesta inicial)
 
-asistente_cpp/ ├── main.py # Ventana principal y ciclo principal ├── speech_recognition.py # Captura voz (Whisper) ├── interpreter.py # Convierte frase a código ├── code_generator.py # Genera el archivo main.cpp ├── templates/ # Plantillas de código base ├── output/ # Carpeta donde se guarda main.cpp ├── requirements.txt # Librerías necesarias └── README.md # Este archivo
+
+## Flujo de Trabajo
+1. El usuario abre la aplicación (Python GUI con Tkinter).
+2. El usuario dicta comandos por voz.
+3. Whisper convierte voz a texto.
+4. El modelo local interpreta el comando (NLP).
+5. El sistema genera el código en `main.cpp`.
+6. VS Code detecta el cambio y muestra el nuevo código.
+7. El usuario puede compilar o editar desde VS Code.
+
+## Instalación
+### 1. Clonar el repositorio
+```bash
+
+
